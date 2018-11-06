@@ -6,6 +6,6 @@ def line(katz_deli = [])
     katz_deli.each.with_index(1) do |name, position|
       current_line << " #{position}. #{name}"
     end
-    current_line
+    puts current_line
   end
 end
