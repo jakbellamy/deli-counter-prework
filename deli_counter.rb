@@ -1,7 +1,7 @@
 def line(katz_deli = [])
   if katz_deli == []
     puts "The line is currently empty."
-  else 
+  else
     current_line = "The line is currently:"
     array.each.with_index(1) do |name, position|
       current_line << " #{position}. #{name}"
@@ -9,7 +9,3 @@ def line(katz_deli = [])
     puts current_line
   end
 end
-
-
-
-   
